@@ -5,6 +5,7 @@ from rest_framework.viewsets import ModelViewSet
 from .models import Menu, Booking
 from .serializers import MenuSerializer, BookingSerializer
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.decorators import permission_classes
 # from restaurant.serializers import UserSerializer
 # from django.contrib.auth.models import User
 
